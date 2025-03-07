@@ -1,3 +1,3 @@
-const Host = 'http://localhost:3001'
+const Host = 'https://greetuser.onrender.com/'
 
 export const postGreetUser = `${Host}/data/greetUser`
