@@ -145,11 +145,11 @@ const Home = () => {
                 <div className="relative w-full">
                     <div className="absolute top-28 right-0 w-full h-full bg-gray-200 flex items-center max-w-4xl">
                         <img src={keyPoint} alt="" className=" w-full h-full object-cover absolute inset-0 z-0 md:block lg:block hidden" />
-                        <div className=" w-full lg:flex md:flex flex-col gap-8 max-w-md ml-52 hidden">
-                            <p className="text-2xl font-medium text-white leading-8 mt-32">
+                        <div className=" w-full lg:flex md:flex flex-col gap-8 max-w-md ml-52 z-50">
+                            <p className="text-2xl font-medium text-white leading-8 mt-32 md:block lg:block hidden">
                                 Green Energy philosophy is to work in the best interest of its customers. We are System Integrator, having collaborations.
                             </p>
-                            <div className="w-max  md:block lg:block hidden">
+                            <div className="w-max md:block lg:block hidden">
                                 <Button className="bg-blue-950 text-white rounded-full flex items-center gap-4 pl-6 pe-3 py-2 text-base font-semibold hover:bg-blue-950 transition">
                                     Know More
                                     <span className="p-2 rounded-full bg-red-500 flex items-center justify-center">
