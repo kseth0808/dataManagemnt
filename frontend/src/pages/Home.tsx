@@ -230,7 +230,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="relative lg:absolute bottom-0 w-full mt-10 lg:mt-0 px-4 lg:px-14 z-20">
-                    <div className="flex lg:flex-row flex-col gap-6 overflow-x-auto">
+                    <div className="flex lg:flex-row flex-col gap-6 overflow-x-auto mb-10">
                         <div className="min-w-[350px] bg-pink-100 p-6 rounded-3xl flex items-center justify-between gap-6 shadow">
                             <div className="flex flex-col gap-4">
                                 <div className="text-lg font-semibold text-black">
@@ -324,7 +324,7 @@ const Home = () => {
                     >
                         <div className="w-full h-screen bg-gray-300 rounded-3xl relative">
                             <img src={banner} alt="" className="w-full h-full object-cover rounded-3xl" />
-                            <div className="absolute lg:left-10 md:left-10 left-0 right-0 top-1/2 transform -translate-y-1/2 bg-white lg:p-8 md:p-8 p-8 rounded-xl shadow-lg max-w-[80%] mx-auto flex flex-col gap-8">
+                            <div className="absolute lg:left-10 md:left-10 left-0 right-0 top-1/2 transform -translate-y-1/2 bg-white lg:p-8 md:p-8 p-8 rounded-xl shadow-lg lg:max-w-xl md:max-w-xl max-w-[80%] lg:mx-0 md:mx-0 mx-auto flex flex-col gap-8">
                                 <div className="lg:text-5xl md:text-5xl text-2xl font-semibold text-gray-800 lg:leading-[60px] md:leading-[60px] leading-0">
                                     The Benefits of Adopting Wind Energy
                                 </div>
@@ -355,7 +355,7 @@ const Home = () => {
                     >
                         <div className="w-full h-screen bg-gray-300 rounded-3xl relative">
                             <img src={banner} alt="" className="w-full h-full object-cover rounded-3xl" />
-                            <div className="absolute lg:left-10 md:left-10 left-0 right-0 top-1/2 transform -translate-y-1/2 bg-white lg:p-8 md:p-8 p-8 rounded-xl shadow-lg max-w-[80%] mx-auto flex flex-col gap-8">
+                            <div className="absolute lg:left-10 md:left-10 left-0 right-0 top-1/2 transform -translate-y-1/2 bg-white lg:p-8 md:p-8 p-8 rounded-xl shadow-lg lg:max-w-xl md:max-w-xl max-w-[80%] lg:mx-0 md:mx-0 mx-auto flex flex-col gap-8">
                                 <div className="lg:text-5xl md:text-5xl text-2xl font-semibold text-gray-800 lg:leading-[60px] md:leading-[60px] leading-0">
                                     The Benefits of Adopting Wind Energy
                                 </div>
@@ -371,6 +371,12 @@ const Home = () => {
                                     ))}
                                 </div>
                             </div>
+                            <Button className="absolute bottom-10 right-10 bg-blue-950 text-white rounded-full flex items-center gap-4 pl-6 pe-3 py-2 text-base font-semibold hover:bg-blue-950 transition w-max">
+                                View More
+                                <span className="p-2 rounded-full bg-red-500 flex items-center justify-center">
+                                    <ArrowForwardIcon fontSize="small" className="text-white" />
+                                </span>
+                            </Button>
                         </div>
                     </AccordionItem>
                 </Accordion>
