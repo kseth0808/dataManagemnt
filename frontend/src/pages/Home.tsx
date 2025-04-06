@@ -101,7 +101,7 @@ const Home = () => {
                             <div className="text-white">
                                 <h2 className="text-xl font-semibold">Efficient Solar Panels</h2>
                                 <p className="text-white/80 text-sm mt-1">
-                                    Our solar panels deliver maximum efficiency...
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda tempore, ipsa impedit explicabo nihil ducimus inventore deserunt rerum atque vitae quae perferendis cum architecto sit odit odio, accusantium voluptates. Cupiditate, soluta accusamus illum dolores fuga totam veniam minus doloremque porro!
                                 </p>
                             </div>
                         </div>
@@ -134,7 +134,7 @@ const Home = () => {
                         <div className="text-black">
                             <h2 className="text-lg font-semibold">Efficient Solar Panels</h2>
                             <p className="text-black/80 text-sm mt-1">
-                                Our solar panels deliver maximum efficiency...
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt laboriosam voluptate exercitationem natus atque esse, molestias quos architecto omnis est digni
                             </p>
                         </div>
                     </div>
